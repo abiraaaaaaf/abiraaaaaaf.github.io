@@ -47,8 +47,8 @@
 }
 
 .u-section-1 .u-text-3 {
-  font-weight: 700;
   font-size: 2.25rem;
+  font-weight: 700;
   margin: 9px 1px 0 0;
 }
 
@@ -339,6 +339,7 @@
 
 .u-section-3 .u-list-item-1 {
   animation-duration: 1000ms;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -364,6 +365,7 @@
 .u-section-3 .u-list-item-2 {
   background-image: none;
   animation-duration: 1000ms;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -388,6 +390,7 @@
 
 .u-section-3 .u-list-item-3 {
   animation-duration: 1000ms;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -516,7 +519,6 @@
   grid-template-rows: auto auto auto;
   grid-template-columns: 100%;
   grid-gap: 10px 10px;
-  height: auto;
   margin: 15px 86px 0 auto;
 }
 
@@ -588,6 +590,7 @@
 
 @media (max-width: 1199px) {
   .u-section-5 .u-list-1 {
+    height: auto;
     margin-right: 56px;
   }
 
@@ -954,7 +957,6 @@
 .u-section-7 .u-list-1 {
   min-height: 226px;
   grid-template-columns: calc(50% - 5px) calc(50% - 5px);
-  height: auto;
   width: 1060px;
   grid-gap: 10px 10px;
   margin: 59px -12px 59px auto;
@@ -979,7 +981,6 @@
 .u-section-7 .u-group-1 {
   width: 403px;
   min-height: 43px;
-  height: auto;
   margin: -65px 0 0 auto;
 }
 
@@ -1014,7 +1015,6 @@
   width: 403px;
   min-height: 43px;
   background-size: auto;
-  height: auto;
   margin: -65px 0 0 auto;
 }
 
@@ -1049,7 +1049,6 @@
   width: 403px;
   min-height: 43px;
   background-size: auto;
-  height: auto;
   margin: -65px 0 0 auto;
 }
 
@@ -1084,7 +1083,6 @@
   width: 403px;
   min-height: 43px;
   background-size: auto;
-  height: auto;
   margin: -65px 0 0 auto;
 }
 
@@ -1107,6 +1105,7 @@
   .u-section-7 .u-list-1 {
     min-height: 468px;
     grid-template-columns: repeat(2, calc(50% - 5px));
+    height: auto;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -1611,6 +1610,10 @@
 .u-section-9 .u-text-6 {
   font-size: 1.125rem;
   margin: 20px auto 0;
+}
+
+.u-section-9 .u-btn-1 {
+  padding: 0;
 }
 
 @media (max-width: 1199px) {
