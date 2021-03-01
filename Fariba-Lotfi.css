@@ -1489,6 +1489,30 @@
   margin: 20px 0 0;
 }
 
+.u-section-8 .u-list-item-9 {
+  animation-duration: 1000ms;
+}
+
+.u-section-8 .u-container-layout-9 {
+  padding: 30px;
+}
+
+.u-section-8 .u-icon-9 {
+  height: 91px;
+  width: 91px;
+  background-image: linear-gradient(#72efe9, #eafdfc);
+  margin: 0 108px 0 auto;
+}
+
+.u-section-8 .u-text-18 {
+  font-weight: 700;
+  margin: 13px 20px 0;
+}
+
+.u-section-8 .u-text-19 {
+  margin: 20px 0 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-8 .u-sheet-1 {
     min-height: 775px;
@@ -1559,6 +1583,11 @@
   }
 
   .u-section-8 .u-container-layout-8 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-8 .u-container-layout-9 {
     padding-left: 10px;
     padding-right: 10px;
   }
