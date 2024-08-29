@@ -49,4 +49,4 @@ def resume_view(request):
             'Lotfi, F., Beheshti, A., et al. (2024). The Open Story Model (OSM): Transforming Big Data into Interactive Narratives. ICWS (Accepted)',
         ]
     }
-    return render(request, 'resume.html', context)
+    return render(request, 'home.html', context)
