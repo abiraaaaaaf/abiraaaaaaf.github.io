@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request, 'resume/index.html')
+    return render(request, 'templates/resume/index.html')
